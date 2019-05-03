@@ -17,9 +17,7 @@ def countdown_with_sleep(number)
   puts "HAPPY NEW YEAR!"
 end
 
-gets.strip = number
+countdown(gets.strip)
 
-countdown(number)
-
-countdown_with_sleep(number)
+countdown_with_sleep(gets.strip)
 
