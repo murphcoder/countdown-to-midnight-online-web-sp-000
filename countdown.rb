@@ -16,3 +16,10 @@ def countdown_with_sleep(number)
   end
   puts "HAPPY NEW YEAR!"
 end
+
+gets.strip = number
+
+countdown(number)
+
+countdown_with_sleep(number)
+
